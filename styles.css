@@ -1,0 +1,151 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    color: #626262;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+h2,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu {
+    padding: 71px 0px 92px;
+}
+
+.nav-list {
+    width: 555px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-list-link {
+    color: #7D7D7D;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: #03A9F4;
+}
+
+/* main */
+.content {
+    padding-bottom: 66px;
+
+}
+
+img {
+    width: 420px;
+    height: 280px;
+}
+
+.LIFESTYLE_PHOTODAIRY {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+}
+
+.main_text {
+    width: 420px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+}
+
+.main-list {
+    display: flex;
+    width: 906px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.main-list-item:not(:nth-child(n+5)) {
+    margin-bottom: 130px;
+}
+
+.main-list-img {
+    margin-bottom: 32px;
+    width: 420px;
+    height: 280px;
+}
+
+.LIFESTYLE_PHOTODAIRY {
+    margin-bottom: 32px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #B4AD9E;
+}
+
+.main-list-text {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+
+
+    color: #626262;
+}
+
+.main-text {
+    margin-bottom: 130px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #626262;
+}
+
+.btn {
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    margin: 90px auto 0;
+    width: 165px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.35;
+    font-weight: 400;
+    color: #626262;
+    border: 1px solid #626262;
+}
